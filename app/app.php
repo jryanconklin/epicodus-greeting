@@ -3,7 +3,7 @@
 
     $app = new Silex\Application();
 
-    $app->get("/hello", function() {
+    $app->get("/", function() {
         return "Hello friend!";
     });
 
